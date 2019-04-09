@@ -5,7 +5,7 @@
         <div ref="thumb" class="input-wrapper">
             <div class="input"  >
                 <i class="iconfont icon-search1187938easyiconnet"></i>
-                <span class="palceholder">名称/单号/库房</span>
+                <span class="palceholder">附件查询</span>
             </div>
         </div>
      </div>
@@ -16,13 +16,13 @@
         <div ref="animate"  class="input-wrapper image-dialog-animate">
             <div  class="input"  >
                 <i class="iconfont icon-search1187938easyiconnet"></i>
-                <span class="palceholder">名称/单号/库房</span>
+                <span class="palceholder">附件查询</span>
             </div>
         </div>
         <div ref="full" @load="onLoadFull"  class="input-wrapper image-dialog-full">
             <div  class="input"  >
                 <i class="iconfont icon-search1187938easyiconnet"></i>
-                <input @input="onInput" v-model="keyword" placeholder="名称/单号/库房" class="palceholder" />
+                <input @input="onInput" v-model="keyword" placeholder="请输入名称" class="palceholder" />
                 <i @click="()=>{keyword=''}" class="iconfont icon-close1"></i>
             </div>
             <div ref="cancleBtn" @click="submitForm" class="cancle-btn">
